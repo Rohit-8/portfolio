@@ -1,0 +1,296 @@
+{
+  "profile": {
+    "name": "Rohit Raj Yadav",
+    "title": "Software Engineer 2",
+    "tagline": "Backend · Frontend · AI",
+    "summary": "Software Engineer with 2.8+ years of experience building scalable backend systems and AI-powered products for legal and healthcare enterprises using .NET, Node.js, Spring Boot, React, PostgreSQL, and Redis. Experienced in architecting production-grade RAG systems, distributed workflows, and low-latency backend architectures focused on scalability and reliability.",
+    "location": "Noida, India",
+    "availability": "Open to opportunities",
+    "stats": [
+      { "label": "Years of Experience", "value": "2.8+", "icon": "clock" },
+      { "label": "Projects Shipped", "value": "10+", "icon": "rocket" },
+      { "label": "Technologies", "value": "25+", "icon": "cpu" },
+      { "label": "Certifications", "value": "2", "icon": "award" }
+    ],
+    "contact": {
+      "phone": "+91 8303373223",
+      "email": "rohitrydv@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/rohit-raj-yadav-a452b51b6/",
+      "github": "https://github.com/Rohit-8"
+    }
+  },
+  "skills": [
+    {
+      "category": "Languages",
+      "icon": "code",
+      "color": "cyan",
+      "items": [
+        { "name": "C#", "level": 90 },
+        { "name": "Java", "level": 80 },
+        { "name": "JavaScript", "level": 88 },
+        { "name": "TypeScript", "level": 85 }
+      ]
+    },
+    {
+      "category": "Backend",
+      "icon": "server",
+      "color": "purple",
+      "items": [
+        { "name": "ASP.NET", "level": 88 },
+        { "name": ".NET Core", "level": 90 },
+        { "name": "Spring Boot", "level": 82 },
+        { "name": "Node.js", "level": 85 },
+        { "name": "Rust", "level": 84 },
+        { "name": "Express", "level": 80 },
+        { "name": "REST APIs", "level": 92 },
+        { "name": "Microservices", "level": 84 }
+      ]
+    },
+    {
+      "category": "Frontend",
+      "icon": "layout",
+      "color": "pink",
+      "items": [
+        { "name": "ReactJS", "level": 90 },
+        { "name": "Next.js", "level": 82 },
+        { "name": "Angular", "level": 70 }
+      ]
+    },
+    {
+      "category": "Databases",
+      "icon": "database",
+      "color": "amber",
+      "items": [
+        { "name": "PostgreSQL", "level": 88 },
+        { "name": "MSSQL", "level": 85 },
+        { "name": "MongoDB", "level": 75 },
+        { "name": "Redis", "level": 84 },
+        { "name": "PGVector", "level": 80 }
+      ]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "icon": "cloud",
+      "color": "blue",
+      "items": [
+        { "name": "Azure DevOps", "level": 80 },
+        { "name": "CI/CD", "level": 82 },
+        { "name": "Docker", "level": 78 },
+        { "name": "Git", "level": 90 }
+      ]
+    },
+    {
+      "category": "AI & Distributed Systems",
+      "icon": "brain",
+      "color": "lime",
+      "items": [
+        { "name": "OpenAI APIs", "level": 85 },
+        { "name": "Gemini APIs", "level": 80 },
+        { "name": "RAG", "level": 88 },
+        { "name": "Multi-Agent Systems", "level": 82 },
+        { "name": "RabbitMQ", "level": 84 },
+        { "name": "Kafka", "level": 75 }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "id": "maq",
+      "role": "Software Engineer-2",
+      "company": "MAQ Software",
+      "location": "Noida",
+      "period": "Apr 2024 — Present",
+      "duration": "2.8+ yrs",
+      "color": "cyan",
+      "achievements": [
+        "Built a stateful multi-tenant invoice lifecycle orchestration system with an LLM-driven decision layer to recommend and trigger actions (review, adjustment, approval, rollback, summarization), reducing manual effort by 80%.",
+        "Designed a CQRS-based rule engine for 100+ invoice adjustment policies, separating command and query paths to improve scalability and consistency, reducing manual interventions by 60%. Integrated Redis caching to optimize rule evaluation latency.",
+        "Modernized ASPX-based invoice workflows to React in a multi-tenant setup, improving UI responsiveness and reducing page load time by 25%.",
+        "Optimized invoice ingestion pipelines using MessagePack serialization for Excel/LEDES files, reducing processing latency by 30%.",
+        "Built event-driven, multi-tenant invoice processing pipelines using RabbitMQ, enabling 50K+ daily operations with high reliability and at-least-once processing."
+      ],
+      "tech": ["AI", "C#", ".NET Core", "ReactJS", "RabbitMQ", "Redis", "MSSQL"]
+    },
+    {
+      "id": "healthedge",
+      "role": "SDE Intern",
+      "company": "HealthEdge",
+      "location": "Pune",
+      "period": "Feb 2023 — Aug 2023",
+      "duration": "6 mo",
+      "color": "purple",
+      "achievements": [
+        "Developed secure and scalable Java REST APIs using Spring Boot for microservices handling 10K+ data-sharing transactions, ensuring consistent performance with latency under 300ms.",
+        "Optimized backend performance by tuning SQL queries using indexing strategies and table-valued functions, reducing database load and improving system responsiveness by up to 40%."
+      ],
+      "tech": ["Java", "Spring Boot", "ReactJS", "Microservices", "SQL"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "easyquant",
+      "name": "EasyQuant",
+      "subtitle": "AI-Driven Financial Research Platform",
+      "period": "Mar 2026 — May 2026",
+      "color": "amber",
+      "icon": "trending-up",
+      "tagline": "Multi-agent AI for institutional-grade equity research",
+      "description": "Architected a multi-agent AI financial research system using LLM orchestration, quantitative modeling, and real-time market/event pipelines to process data across 12+ market segments for institutional-grade equity research generation.",
+      "highlights": [
+        "Implemented domain-specialized AI agents for macroeconomics, sector analysis, fundamentals, technical indicators, and sentiment signals.",
+        "Aggregated signals into an automated conviction scoring engine for multi-factor investment insights.",
+        "Processed data across 12+ market segments in real time."
+      ],
+      "tech": ["Next.js", "Node.js", "React.js", "PostgreSQL", "Redis", "NVIDIA NIM"],
+      "metrics": [
+        { "label": "Market Segments", "value": "12+" },
+        { "label": "AI Agents", "value": "5+" }
+      ]
+    },
+    {
+      "id": "cipherdocs",
+      "name": "CipherDocs",
+      "subtitle": "Intelligent Document Analysis using RAG",
+      "period": "Jan 2026 — Feb 2026",
+      "color": "cyan",
+      "icon": "file-text",
+      "tagline": "Production-grade RAG document intelligence",
+      "description": "Engineered a production-grade RAG-based document intelligence system supporting 5+ document formats (PDF, DOCX, CSV, TXT, Markdown) with semantic search, summarization, and citation-aware retrieval.",
+      "highlights": [
+        "Designed scalable ingestion and embedding pipelines with async processing and vector search using pgvector.",
+        "Added a Redis caching layer and multi-provider LLM fallback for resilient, low-latency retrieval.",
+        "Enabled processing of 100+ documents with low-latency Q&A workflows."
+      ],
+      "tech": ["React.js", "Node.js", "TypeScript", "PostgreSQL", "PGVector", "Redis", "BullMQ"],
+      "metrics": [
+        { "label": "Doc Formats", "value": "5+" },
+        { "label": "Documents", "value": "100+" }
+      ]
+    },
+    {
+      "id": "obscure-gaming",
+      "name": "Obscure-Gaming",
+      "subtitle": "Multi-Game Entertainment Platform",
+      "period": "Jun 2022 — Aug 2022",
+      "color": "accent",
+      "icon": "gamepad",
+      "tagline": "A platform to play a variety of games during leisure time",
+      "description": "Created a platform to offer a variety of games for users to engage during their leisure time, with a responsive interface and secure, server-side data storage.",
+      "highlights": [
+        "Designed a responsive user interface using ReactJS components.",
+        "Implemented Passport authorization for secure encryption and protection of user information.",
+        "Used MongoDB Atlas for secure, server-side data storage."
+      ],
+      "tech": ["ReactJS", "NodeJS", "JavaScript", "MongoDB", "Material-UI", "Passport"],
+      "metrics": [
+        { "label": "Games", "value": "Multiple" },
+        { "label": "Auth", "value": "Passport" }
+      ]
+    },
+    {
+      "id": "cataloger-app",
+      "name": "Cataloger-App",
+      "subtitle": "Note Keeping MERN Application",
+      "period": "Mar 2022 — May 2022",
+      "color": "accent",
+      "icon": "notebook",
+      "tagline": "A fully responsive note-keeping app for daily notes",
+      "description": "Built a fully responsive note-keeping MERN application where users can keep their daily notes — an ideal tool to collect and manage 10,000+ personal and work-related notes.",
+      "highlights": [
+        "Built a fully responsive note-keeping experience across devices.",
+        "Configured MongoDB Atlas for centralized, secure and globally accessible data storage.",
+        "Designed to manage 10,000+ personal and work-related notes."
+      ],
+      "tech": ["NodeJS", "ReactJS", "MongoDB", "Express"],
+      "metrics": [
+        { "label": "Notes", "value": "10,000+" },
+        { "label": "Stack", "value": "MERN" }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": "azure-ai",
+      "title": "Azure AI Fundamentals",
+      "issuer": "Microsoft",
+      "year": "2026",
+      "icon": "cloud",
+      "description": "Microsoft Certified: Azure AI Fundamentals — core concepts of generative AI and Azure AI services."
+    },
+    {
+      "id": "oci-genai",
+      "title": "OCI Generative AI Professional",
+      "issuer": "Oracle Cloud Infrastructure",
+      "year": "2025",
+      "icon": "brain",
+      "description": "Certified in Oracle Cloud Infrastructure Generative AI Professional — building and deploying GenAI workloads on OCI."
+    },
+    {
+      "id": "leetcode",
+      "title": "1,200+ Problems Solved",
+      "issuer": "LeetCode · GFG · CodeChef · Codeforces",
+      "year": "2022",
+      "icon": "code",
+      "description": "Solved 1,200+ problems across LeetCode, GeeksForGeeks, CodeChef and Codeforces."
+    },
+    {
+      "id": "jobathon",
+      "title": "Ranked 389 / 3,000+",
+      "issuer": "Job-a-Thon 6 · GeeksForGeeks",
+      "year": "2022",
+      "icon": "trophy",
+      "description": "Ranked 389 among 3,000+ participants in the Job-a-Thon 6 coding competition."
+    },
+    {
+      "id": "codevita",
+      "title": "Global Rank 3,522 / 100,000+",
+      "issuer": "TCS CodeVita 2022",
+      "year": "2022",
+      "icon": "trophy",
+      "description": "Qualified TCS CodeVita 2022 and secured a global rank of 3,522 over 100,000+ participants."
+    },
+    {
+      "id": "codechef",
+      "title": "4-Star · Rating 1,807",
+      "issuer": "CodeChef",
+      "year": "2022",
+      "icon": "star",
+      "description": "Achieved a 4-star rating on CodeChef with a maximum rating of 1,807."
+    },
+    {
+      "id": "newton",
+      "title": "Ranked 221 / 3,000+",
+      "issuer": "Newton's School Coding Challenge",
+      "year": "2022",
+      "icon": "trophy",
+      "description": "Secured a global rank of 221 in the Newton's School coding challenge (July 2022) among 3,000+ participants."
+    },
+    {
+      "id": "kickstart",
+      "title": "Ranked 2,402 / 8,200+",
+      "issuer": "Google Kick Start Round E 2022",
+      "year": "2022",
+      "icon": "trophy",
+      "description": "Secured a rank of 2,402 among 8,200+ participants in Google Kick Start Round E 2022."
+    },
+    {
+      "id": "gpa",
+      "title": "8.03 / 10 GPA",
+      "issuer": "IET Lucknow",
+      "year": "2023",
+      "icon": "graduation-cap",
+      "description": "Bachelor of Technology in Computer Science & Engineering with an 8.03/10.0 GPA."
+    }
+  ],
+  "education": {
+    "institution": "Institute of Engineering and Technology, Lucknow",
+    "degree": "Bachelor of Technology",
+    "field": "Computer Science and Engineering",
+    "period": "Aug 2019 — Jun 2023",
+    "gpa": "8.03 / 10.0"
+  },
+  "certifications": [
+    { "title": "Azure AI Fundamentals", "issuer": "Microsoft", "year": "2026" },
+    { "title": "OCI Generative AI Professional", "issuer": "Oracle Cloud Infrastructure", "year": "2025" }
+  ]
+}
