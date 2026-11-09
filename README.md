@@ -13,11 +13,12 @@ Software Engineer with 2.8+ years of experience building scalable backend system
 
 ## Tech Stack
 
-- **React 18** + **Vite 5**
-- **React Router 6** (nested routes)
-- **Framer Motion** (animations)
-- **Tailwind CSS** (styling)
-- **lucide-react** (icons)
+- **Languages:** C#, Java, JavaScript, TypeScript
+- **Backend:** ASP.NET, .NET Core, Spring Boot, Node.js, Rust, Express, REST APIs, Microservices
+- **Frontend:** ReactJS, Next.js, Angular
+- **Databases:** PostgreSQL, MSSQL, MongoDB, Redis, PGVector
+- **Cloud & DevOps:** Azure DevOps, CI/CD, Docker, Git
+- **AI & Distributed Systems:** OpenAI APIs, Gemini APIs, RAG, Multi-Agent Systems, RabbitMQ, Kafka
 
 ## Getting Started
 
